@@ -38,6 +38,3 @@ The goal is to find the shortest tour that visits each Location in a given list 
   Formally, the TSP can be stated as: The distances between n locations are stored in a distance matrix D with elementsd(i, j) where i, j= 1. . . nand the diagonal elementsd(i, i) = 0. A tour can be represented by a cyclic permutationπof{1,2, . . . , n} whereπ(i)represents the location that follows location in the tour. The traveling salesperson problem is then to find a permutationπthat minimizesn
               ∑i=1d(i, π(i))
 which is called the length of the tour.   
-
-
-OverviewTSP/ATSPTOURdistmatrixTSPLIBfilewrite_TSPLIB()as.dist()TSP()/ATSP()as.TSP()/as.ATSP()integer (vector)as.integer()cut_tour()TSP()as.TSP()as.matrix()solve_TSP()TOUR()as.TOUR
