@@ -9,25 +9,17 @@ data("USCA312_map")
 setwd(".\\")
 options(digits=9)
 
-# Read source data from locations.csv file
 loc.raw <- read.csv(file = "locations.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 str(loc.raw)
 
-
-# Check first few rows of data
-head(loc.raw)
-
-# Clean dataset, filter invalid records
+# remove unwanted data
 loc.nan <- loc.raw[(is.na(loc.raw$lon)), ]
 loc.nan
-
-# Check cleaned dataset
 loc.new <- loc.raw[(!is.na(loc.raw$lon)), ]
 loc.new$lat <- as.numeric(loc.new$lat)
 str(loc.new)
 
-# Function to calculate distance (Euclidean Distance) in kilometers between two points.
-# Reference : https://conservationecology.wordpress.com/2013/06/30/distance-between-two-points-in-r/
+# Distance in kilometers between two points.
 earth.dist <- function (long1, lat1, long2, lat2){
 rad <- pi/180
 a1 <- lat1 * rad
@@ -56,10 +48,7 @@ tail(loc.new)
 # Check summary of dataset
 summary(loc.new)
 
-# box and whisker plot for reviewing distribution
-boxplot(loc.new[(loc.new$km < 5),], use.cols = TRUE, horizontal = TRUE)
-
-# TSP solver methods
+# solver methods
 methods <- c("nearest_insertion", "farthest_insertion", "cheapest_insertion", "arbitrary_insertion", "nn", "repetitive_nn", "two_opt")
 
 # Tour comparison for 50 US cities.
