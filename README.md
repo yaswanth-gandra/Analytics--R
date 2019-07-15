@@ -23,6 +23,13 @@ Things we expect
 If you have any new ideas we didn’t think of, would be a bonus.
 
 
->>> Solution
+>>> Goal
+The goal is to find the shortest tour that visits each Location in a given list exactly once and then returns to the starting Location.
 
+. libraries Used
+    The traveling salesperson problem
+    Maps
+    
+ . Definition
+  Formally, the TSP can be stated as: The distances betweenncities are storedin a distance matrixDwith elementsd(i, j)wherei, j= 1. . . nand thediagonal elementsd(i, i) = 0.A tour can be represented by a cyclic permutationπof{1,2, . . . , n}whereπ(i)represents the city that follows cityion the tour. The travelingsalesperson problem is then to find a permutationπthat minimizesn∑i=1d(i, π(i)),(1)which is called thelength of the tour.   
 
