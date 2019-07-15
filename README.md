@@ -22,7 +22,7 @@ Things we expect
 
 If you have any new ideas we didn’t think of, would be a bonus.
 
-
+[color]
 >>> Goal
 The goal is to find the shortest tour that visits each Location in a given list exactly once and then returns to the starting Location.
 
