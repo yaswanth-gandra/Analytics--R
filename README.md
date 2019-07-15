@@ -1,3 +1,5 @@
+>>> Problem statement
+
 A delivery company IParcel delivers packages to certain locations every day. Below is a sample set of the lat and lngs. 
 • 1 parcel per location for the sake of simplicity 
 
