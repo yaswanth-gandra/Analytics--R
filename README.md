@@ -39,3 +39,5 @@ The goal is to find the shortest tour that visits each Location in a given list 
               ∑i=1d(i, π(i))
 which is called the length of the tour.   
 
+
+OverviewTSP/ATSPTOURdistmatrixTSPLIBfilewrite_TSPLIB()as.dist()TSP()/ATSP()as.TSP()/as.ATSP()integer (vector)as.integer()cut_tour()TSP()as.TSP()as.matrix()solve_TSP()TOUR()as.TOUR
