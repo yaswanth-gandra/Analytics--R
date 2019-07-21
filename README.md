@@ -39,9 +39,33 @@ The goal is to find the shortest tour that visits each Location in a given list 
  
   Formally, the TSP can be stated as: The distances between n locations are stored in a distance matrix D with elementsd(i, j) where i, j= 1. . . nand the diagonal elementsd(i, i) = 0. A tour can be represented by a cyclic permutationπof{1,2, . . . , n} whereπ(i)represents the location that follows location in the tour. The traveling salesperson problem is then to find a permutationπthat minimizesn
               ∑i=1d(i, π(i))
-which is called the length of the tour.   
+which is called the length of the tour.
 
-###steps follwed
+
+## Installation of R on Mac
+To Install R
+Open an internet browser and go to www.r-project.org.
+Click the "download R" link in the middle of the page under "Getting Started."
+Select a CRAN location (a mirror site) and click the corresponding link.
+Click on the "Download R for (Mac) OS X" link at the top of the page.
+Click on the file containing the latest version of R under "Files."
+Save the .pkg file, double-click it to open, and follow the installation instructions.
+Now that R is installed, you need to download and install RStudio.
+To Install RStudio
+Go to www.rstudio.com and click on the "Download RStudio" button.
+Click on "Download RStudio Desktop."
+Click on the version recommended for your system, or the latest Mac version, save the .dmg file on your computer, double-click it to open, and then drag and drop it to your applications folder.
+To Install the SDSFoundations Package
+Download SDSFoundations to your desktop (make sure it has the ".tgz" extension).
+Open RStudio.
+Click on the Packages tab in the bottom right window.
+Click "Install."
+Select install from "Package Archive File."
+Select the SDSFoundations package file from your desktop.
+Click install. You are done! You can now delete the SDSpackage file from your desktop.
+
+
+## steps follwed
 
 step 1: set options and libraries
 
