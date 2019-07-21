@@ -67,52 +67,46 @@ Click install. You are done! You can now delete the SDSpackage file from your de
 
 ## steps follwed
 
-step 1: set options and libraries
+step 1: libraries
 
 step 2: Read source data from locations file
 
-step 3: Check first few rows of data
+step 3: filter invalid records
 
-step 4: Clean dataset, filter invalid records
+step 4: Euclidean Distance in kilometers between two points.
 
-step 5: Check cleaned dataset
+step 5: Define Central Distribution Point location
 
-step 6: Function to calculate distance (Euclidean Distance) in kilometers between two points.
+step 6: Calculate distance from Central Distribution Point to each delivery location
 
-step 7: Define Central Distribution Point location
+step 7: Check summary of dataset
 
-step 8: Calculate distance from Central Distribution Point to each delivery location
+step 8: box and whisker plot for reviewing distribution
 
-step 9: Check last few records
+step 9: TSP solver methods
 
-step 10: Check summary of dataset
+step 10: Tour comparison for 50 US cities
 
-step 11: box and whisker plot for reviewing distribution
+step 11: dotchart
 
-step 12: TSP solver methods
-
-step 13: Tour comparison for 50 US cities
+step 12: concorde_path, need to use the execution files
+         . Concorde.chm 
+         . Concorde.exe 
+         . QSConcorde.dll
+         
+step 13: Tour comparison for 313 US cities
 
 step 14: dotchart
 
-step 15: concorde_path, need to use the execution files
-         Concorde.chm 
-         Concorde.exe 
-         QSConcorde.dll
-         
-step 16: Tour comparison for 313 US cities
+step 15: mytour
 
-step 17: dotchart
+step 16: path
 
-step 18: mytour
+step 17: tail path
 
-step 19: path
+step 18: plot_path
 
-step 20: tail path
-
-step 21: plot_path
-
-step 22: Vehicle Stop coordinates
+step 19: Vehicle Stop coordinates
 
 
          
