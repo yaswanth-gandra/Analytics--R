@@ -40,3 +40,55 @@ The goal is to find the shortest tour that visits each Location in a given list 
   Formally, the TSP can be stated as: The distances between n locations are stored in a distance matrix D with elementsd(i, j) where i, j= 1. . . nand the diagonal elementsd(i, i) = 0. A tour can be represented by a cyclic permutationπof{1,2, . . . , n} whereπ(i)represents the location that follows location in the tour. The traveling salesperson problem is then to find a permutationπthat minimizesn
               ∑i=1d(i, π(i))
 which is called the length of the tour.   
+
+###steps follwed
+
+step 1: set options and libraries
+
+step 2: Read source data from locations file
+
+step 3: Check first few rows of data
+
+step 4: Clean dataset, filter invalid records
+
+step 5: Check cleaned dataset
+
+step 6: Function to calculate distance (Euclidean Distance) in kilometers between two points.
+
+step 7: Define Central Distribution Point location
+
+step 8: Calculate distance from Central Distribution Point to each delivery location
+
+step 9: Check last few records
+
+step 10: Check summary of dataset
+
+step 11: box and whisker plot for reviewing distribution
+
+step 12: TSP solver methods
+
+step 13: Tour comparison for 50 US cities
+
+step 14: dotchart
+
+step 15: concorde_path, need to use the execution files
+         Concorde.chm 
+         Concorde.exe 
+         QSConcorde.dll 
+step 16: Tour comparison for 313 US cities
+
+step 17: dotchart
+
+step 18: mytour
+
+step 19: path
+
+step 20: tail path
+
+step 21: plot_path
+
+step 22: Vehicle Stop coordinates
+
+
+         
+         
