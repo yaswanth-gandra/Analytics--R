@@ -74,7 +74,8 @@ step 14: dotchart
 step 15: concorde_path, need to use the execution files
          Concorde.chm 
          Concorde.exe 
-         QSConcorde.dll 
+         QSConcorde.dll
+         
 step 16: Tour comparison for 313 US cities
 
 step 17: dotchart
