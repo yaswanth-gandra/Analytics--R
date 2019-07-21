@@ -1,4 +1,4 @@
-# set options and libraries
+# packages
 library("TSP")
 library("maps")
 library("sp")
@@ -6,9 +6,10 @@ library("maptools")
 data("USCA50")
 data("USCA312")
 data("USCA312_map")
-setwd(".\\")
 options(digits=9)
+setwd(".\\")
 
+# locations.csv file
 loc.raw <- read.csv(file = "locations.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 str(loc.raw)
 
